@@ -18,5 +18,10 @@ releases:
   name: jx-demo
   values:
   - jx-values.yaml
+- chart: dev/demo-python
+  version: 0.0.1
+  name: jx-demo-python
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
