@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: data-platform-skn
+    provider: github
+    repository: demo
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: data-platform-skn-demo
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/data-platform-skn/demo.git
+  org: data-platform-skn
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: demo
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/data-platform-skn/demo
