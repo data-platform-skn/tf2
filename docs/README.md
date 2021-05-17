@@ -105,9 +105,9 @@
 	      <td></td>
 	    </tr>
     <tr>
-	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> demo-python </a></td>
+	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> demo </a></td>
 	      <td>0.0.1</td>
-	      <td><a href='http://demo-python-jx-production.65.2.47.12.nip.io'>view</a></td>
+	      <td><a href='http://demo-jx-production.65.2.47.12.nip.io'>view</a></td>
 	      <td></td>
 	    </tr>
     <tr>
