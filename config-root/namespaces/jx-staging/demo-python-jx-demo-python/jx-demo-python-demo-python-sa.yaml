@@ -1,0 +1,10 @@
+# Source: demo-python/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jx-demo-python-demo-python
+  annotations:
+    meta.helm.sh/release-name: 'jx-demo-python'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
