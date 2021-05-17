@@ -228,17 +228,17 @@
   path: helmfiles/jx-staging/helmfile.yaml
   releases:
   - apiVersion: v1
-    appVersion: 0.0.1
+    appVersion: 0.0.2
     applicationUrl: http://tf-spring-demo-jx-staging.65.2.47.12.nip.io
     description: A Helm chart for Kubernetes
-    firstDeployed: "2021-05-17T17:48:31Z"
+    firstDeployed: "2021-05-17T18:05:37Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
     ingresses:
     - name: tf-spring-demo
       url: http://tf-spring-demo-jx-staging.65.2.47.12.nip.io
-    lastDeployed: "2021-05-17T17:48:31Z"
+    lastDeployed: "2021-05-17T18:05:37Z"
     name: tf-spring-demo
     repositoryName: dev
     repositoryUrl: http://chartmuseum-jx.65.2.47.12.nip.io/
     resourcePath: config-root/namespaces/jx-staging/tf-spring-demo-jx-tf-spring-demo
-    version: 0.0.1
+    version: 0.0.2
