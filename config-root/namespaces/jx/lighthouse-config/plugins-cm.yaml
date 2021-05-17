@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - data-platform-skn/demo-python
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - data-platform-skn/demo
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -27,6 +31,9 @@ data:
       data-platform-skn/demo:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
+      data-platform-skn/demo-python:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
       data-platform-skn/tf-spring-demo:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
@@ -39,6 +46,22 @@ data:
     owners: {}
     plugins:
       data-platform-skn/demo:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      data-platform-skn/demo-python:
       - approve
       - assign
       - blunderbuss
@@ -98,6 +121,9 @@ data:
     triggers:
     - repos:
       - data-platform-skn/tf2
+      trusted_org: todo
+    - repos:
+      - data-platform-skn/demo-python
       trusted_org: todo
     - repos:
       - data-platform-skn/demo
