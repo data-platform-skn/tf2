@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         data-platform-skn/demo: true
+        data-platform-skn/demo-go: true
         data-platform-skn/demo-python: true
         data-platform-skn/tf-spring-demo: true
         data-platform-skn/tf2: true
@@ -23,6 +24,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         data-platform-skn/demo: merge
+        data-platform-skn/demo-go: merge
         data-platform-skn/demo-python: merge
         data-platform-skn/tf-spring-demo: merge
         data-platform-skn/tf2: merge
@@ -37,6 +39,7 @@ data:
         - needs-rebase
         repos:
         - data-platform-skn/tf2
+        - data-platform-skn/demo-go
         - data-platform-skn/demo-python
         - data-platform-skn/demo
         - data-platform-skn/tf-spring-demo
@@ -50,6 +53,7 @@ data:
         - needs-rebase
         repos:
         - data-platform-skn/tf2
+        - data-platform-skn/demo-go
         - data-platform-skn/demo-python
         - data-platform-skn/demo
         - data-platform-skn/tf-spring-demo
