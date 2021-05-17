@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        data-platform-skn/demo: true
         data-platform-skn/tf-spring-demo: true
         data-platform-skn/tf2: true
     plank: {}
@@ -20,6 +21,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        data-platform-skn/demo: merge
         data-platform-skn/tf-spring-demo: merge
         data-platform-skn/tf2: merge
       queries:
@@ -33,6 +35,7 @@ data:
         - needs-rebase
         repos:
         - data-platform-skn/tf2
+        - data-platform-skn/demo
         - data-platform-skn/tf-spring-demo
       - labels:
         - updatebot
@@ -44,6 +47,7 @@ data:
         - needs-rebase
         repos:
         - data-platform-skn/tf2
+        - data-platform-skn/demo
         - data-platform-skn/tf-spring-demo
       target_url: http://dashboard-jx.65.2.47.12.nip.io
 kind: ConfigMap
