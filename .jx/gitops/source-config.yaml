@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: demo
+    - name: demo-go
     - name: demo-python
     - name: tf-spring-demo
     scheduler: in-repo
