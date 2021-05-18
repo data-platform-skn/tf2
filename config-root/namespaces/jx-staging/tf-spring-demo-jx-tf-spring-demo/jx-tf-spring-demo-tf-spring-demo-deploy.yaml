@@ -5,7 +5,7 @@ metadata:
   name: jx-tf-spring-demo-tf-spring-demo
   labels:
     draft: draft-app
-    chart: "tf-spring-demo-0.0.2"
+    chart: "tf-spring-demo-0.0.3"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'jx-tf-spring-demo'
@@ -25,11 +25,11 @@ spec:
       serviceAccountName: jx-tf-spring-demo-tf-spring-demo
       containers:
         - name: tf-spring-demo
-          image: "890324431850.dkr.ecr.ap-south-1.amazonaws.com/data-platform-skn/tf-spring-demo:0.0.2"
+          image: "890324431850.dkr.ecr.ap-south-1.amazonaws.com/data-platform-skn/tf-spring-demo:0.0.3"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.2
+              value: 0.0.3
           envFrom: null
           ports:
             - name: http
