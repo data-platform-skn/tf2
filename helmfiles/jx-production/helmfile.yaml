@@ -9,7 +9,7 @@ repositories:
   url: http://chartmuseum-jx.65.2.47.12.nip.io/
 releases:
 - chart: dev/tf-spring-demo
-  version: 0.0.3
+  version: 0.0.5
   name: jx-tf-spring-demo
   values:
   - jx-values.yaml
