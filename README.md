@@ -6,7 +6,7 @@ This git repository installs Jenkins X with Vault.
 
 Modify the `jx-requirements.yml` file
 
-Now git commit and push any changes...
+now git commit and push any changes...
 
 ```bash 
 git add *
